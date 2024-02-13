@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# Copyright (C) 2024  KA Wright
+
+# This small script changes the environment variables used in my personal
+# .vimrc file for color themes to a light-on-dark scheme.
+
+export VIM_FG=214
+export VIM_BG=16
+
+echo "VIM color scheme changed to LIGHT"
